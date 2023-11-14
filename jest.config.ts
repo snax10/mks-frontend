@@ -28,6 +28,7 @@ const config: Config = {
     "<rootDir>/src/store/**/*.ts",
     "<rootDir>/src/utils/**/*.ts",
     "<rootDir>/src/hooks/**/*.ts",
+    "<rootDir>/src/Icons/**/*.tsx",
   ],
 
   // The directory where Jest should output its coverage files
