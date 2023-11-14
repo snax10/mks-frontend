@@ -52,6 +52,7 @@ export function Cart() {
       </CartResume>
       <FinishPurchase
         data-testid="finish-purchase-button"
+        disabled={cartItems.length === 0}
         onClick={() => {
           toastSuccess(`
             Compra finalizada com sucesso! 

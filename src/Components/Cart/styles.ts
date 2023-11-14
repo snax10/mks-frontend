@@ -87,4 +87,9 @@ export const FinishPurchase = styled.button`
   line-height: 15px;
   border: none;
   cursor: pointer;
+
+  &:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
 `;
