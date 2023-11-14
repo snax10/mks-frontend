@@ -23,13 +23,13 @@ export const CardInfos = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 0 20px;
 `;
 
 export const CardTitle = styled.h2`
   max-width: 124px;
   font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
   color: #333;
   margin-bottom: 10px;
   line-height: 1.3;
@@ -43,6 +43,7 @@ export const CardPrice = styled.p`
   font-size: 15px;
   font-weight: 700;
   color: #fff;
+  font-family: "Montserrat", sans-serif;
   background-color: #373737;
   text-align: center;
   padding: 5px 10px;
