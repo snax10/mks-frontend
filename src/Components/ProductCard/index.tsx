@@ -1,4 +1,4 @@
-import { Product, useProductStore } from "../../store/product.store";
+import { ItemCart, Product, useProductStore } from "../../store/product.store";
 import { formatMoneyValue } from "../../utils/currency";
 import { IconBag } from "../../Icons/IconBag";
 import {
@@ -21,7 +21,8 @@ export const ProductCard = ({ product }: ProductItemProps) => {
   const { cartItems, setCartItems, setIsCartActive } = useProductStore();
 
   const handleAddToCart = () => {
-    setCartItems([...cartItems, product]);
+    const newItem: ItemCart = { ...product, quantity: 1 };
+    setCartItems([...cartItems, newItem]);
     setIsCartActive(true);
   };
 
