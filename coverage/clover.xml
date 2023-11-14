@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699999000863" clover="3.2.0">
-  <project timestamp="1699999000863" name="All files">
-    <metrics statements="674" coveredstatements="667" conditionals="28" coveredconditionals="26" methods="19" coveredmethods="15" elements="721" coveredelements="708" complexity="0" loc="674" ncloc="674" packages="9" files="15" classes="15"/>
+<coverage generated="1700001511003" clover="3.2.0">
+  <project timestamp="1700001511003" name="All files">
+    <metrics statements="715" coveredstatements="708" conditionals="32" coveredconditionals="30" methods="20" coveredmethods="16" elements="767" coveredelements="754" complexity="0" loc="715" ncloc="715" packages="10" files="16" classes="16"/>
     <package name="Components.Cart">
-      <metrics statements="158" coveredstatements="158" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <metrics statements="164" coveredstatements="164" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
       <file name="index.tsx" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/Cart/index.tsx">
-        <metrics statements="68" coveredstatements="68" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <metrics statements="69" coveredstatements="69" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -60,23 +60,24 @@
         <line num="52" count="3" type="stmt"/>
         <line num="53" count="3" type="stmt"/>
         <line num="54" count="3" type="stmt"/>
-        <line num="55" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="56" count="1" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="57" count="1" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
         <line num="59" count="1" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
         <line num="61" count="1" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
-        <line num="63" count="3" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
         <line num="64" count="3" type="stmt"/>
         <line num="65" count="3" type="stmt"/>
         <line num="66" count="3" type="stmt"/>
         <line num="67" count="3" type="stmt"/>
         <line num="68" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
       </file>
       <file name="styles.ts" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/Cart/styles.ts">
-        <metrics statements="90" coveredstatements="90" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="95" coveredstatements="95" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -167,6 +168,11 @@
         <line num="88" count="1" type="stmt"/>
         <line num="89" count="1" type="stmt"/>
         <line num="90" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Components.CartButton">
@@ -502,7 +508,7 @@
       </file>
     </package>
     <package name="Components.ProductCard">
-      <metrics statements="126" coveredstatements="123" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <metrics statements="127" coveredstatements="124" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
       <file name="index.tsx" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/ProductCard/index.tsx">
         <metrics statements="45" coveredstatements="42" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -552,7 +558,7 @@
         <line num="45" count="6" type="stmt"/>
       </file>
       <file name="styles.ts" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/ProductCard/styles.ts">
-        <metrics statements="81" coveredstatements="81" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="82" coveredstatements="82" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -634,6 +640,47 @@
         <line num="79" count="1" type="stmt"/>
         <line num="80" count="1" type="stmt"/>
         <line num="81" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="34" coveredstatements="34" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="useToast.ts" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/hooks/useToast.ts">
+        <metrics statements="34" coveredstatements="34" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
       </file>
     </package>
     <package name="pages">
