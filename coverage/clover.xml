@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1700002074701" clover="3.2.0">
-  <project timestamp="1700002074701" name="All files">
-    <metrics statements="798" coveredstatements="791" conditionals="35" coveredconditionals="33" methods="23" coveredmethods="19" elements="856" coveredelements="843" complexity="0" loc="798" ncloc="798" packages="11" files="19" classes="19"/>
+<coverage generated="1700003602128" clover="3.2.0">
+  <project timestamp="1700003602129" name="All files">
+    <metrics statements="799" coveredstatements="791" conditionals="35" coveredconditionals="33" methods="23" coveredmethods="19" elements="857" coveredelements="843" complexity="0" loc="799" ncloc="799" packages="11" files="19" classes="19"/>
     <package name="Components.Cart">
       <metrics statements="164" coveredstatements="164" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
       <file name="index.tsx" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/Cart/index.tsx">
@@ -508,9 +508,9 @@
       </file>
     </package>
     <package name="Components.ProductCard">
-      <metrics statements="127" coveredstatements="124" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <metrics statements="128" coveredstatements="124" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
       <file name="index.tsx" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/ProductCard/index.tsx">
-        <metrics statements="45" coveredstatements="42" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <metrics statements="46" coveredstatements="42" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -537,7 +537,7 @@
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="27" count="6" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="28" count="6" type="stmt"/>
         <line num="29" count="6" type="stmt"/>
         <line num="30" count="6" type="stmt"/>
@@ -556,6 +556,7 @@
         <line num="43" count="6" type="stmt"/>
         <line num="44" count="6" type="stmt"/>
         <line num="45" count="6" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
       </file>
       <file name="styles.ts" path="/Users/carlos.esilva/Documents/projetos/mks-frontend/src/Components/ProductCard/styles.ts">
         <metrics statements="82" coveredstatements="82" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

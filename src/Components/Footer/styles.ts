@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
   height: 34px;
 
   background-color: #eeeeee;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 14.63px;
